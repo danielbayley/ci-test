@@ -7,4 +7,4 @@ jobs:
   CI:
     uses: danielbayley/npm-package-ci/.github/workflows/ci.yaml@main
     with:
-      ignore-scripts: true
+      ignore-scripts: false
