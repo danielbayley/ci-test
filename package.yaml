@@ -11,3 +11,4 @@ devDependencies:
 
 scripts:
   prepare: yaml --single --json --indent 2 < package.yaml > package.json
+  test: cat package.json
