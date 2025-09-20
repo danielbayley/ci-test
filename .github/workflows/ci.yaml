@@ -1,0 +1,10 @@
+name: CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  CI:
+    uses: danielbayley/npm-package-ci/.github/workflows/ci.yaml@main
+    #with:
+      #ignore-scripts: false
