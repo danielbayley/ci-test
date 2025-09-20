@@ -1,0 +1,13 @@
+name: ci-test
+version: 0.0.0
+
+type: module
+exports: ./index.js
+
+packageManager: pnpm@10.17.0
+
+devDependencies:
+  yaml: ^2.8.1
+
+scripts:
+  prepare: yaml --single --json --indent 2 < package.yaml > package.json
