@@ -8,4 +8,3 @@ jobs:
     uses: danielbayley/npm-package-ci/.github/workflows/ci.yaml@main
     with:
       ignore-scripts: false
-      extra-security: false
